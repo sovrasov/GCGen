@@ -2,14 +2,10 @@ sudo: false
 
 os:
   - linux
+  - osx
 
 language:
   - cpp
-
-addons:
-  apt:
-    sources:
-      - ubuntu-toolchain-r-test
 
 script:
   - mkdir build
